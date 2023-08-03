@@ -1,6 +1,6 @@
 # User Profile Card with ReactJs and Typescript
 
-![Screenshot](src/assets/sigma.jpg)
+![Screenshot](src/assets/Screenshot from 2023-08-03 18-32-28.png)
 
 
 ## Available Scripts
