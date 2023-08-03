@@ -1,6 +1,6 @@
 # User Profile Card with ReactJs and Typescript
 
-![Screenshot](src/assets/Screenshot from 2023-08-03 18-32-28.png)
+![Screenshot](src/assets/screenshot.png)
 
 
 ## Available Scripts
