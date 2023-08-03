@@ -15,14 +15,18 @@ const AvatarComponent:React.FC<User> = ({name, image}) => {
     <CardMedia sx={
       {
         paddingTop:'10%',
-        display: 'flex',               // Use flexbox to center the Avatar
+        display: 'flex',              
         justifyContent: 'center', 
-      }
-    }>
+        backgroundColor: '#2e79db'
+        
+      }}
+      
+      
+      >
       <Avatar
             alt={name}
             src={image}
-            sx={{ width: 100, height: 100, textAlign:'center'}}
+            sx={{ width: 120, height: 120, textAlign:'center'}}
         />
     </CardMedia>
      

@@ -16,10 +16,9 @@ const CardComponent: React.FC<CardComponentProps> = ({ children }) => {
                 transition: 'box-shadow 0.3s ease-in-out',
                 '&:hover': {
                     boxShadow: '0 8px 16px rgba(0, 0, 0, 0.2)',
-                }, 
-                backgroundImage: "linear-gradient(to bottom, #ffffff, #000000);",
-                color: 'white'
-  }}>
+                },               
+            }}
+  >
         {children}
       </Card>
     </>

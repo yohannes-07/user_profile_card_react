@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import {Card, CardContent, CardActions, Link, Typography } from '@mui/material'
+import {Email,OpenInBrowser } from '@mui/icons-material'
 
 type Props = {
     name: string,
@@ -14,7 +15,7 @@ const Info:React.FC<Props> = ({name, bio, website,email}) => {
     <>
     <CardContent 
       sx={{
-        margin:'10%',
+        margin:'5%',
         
       }}
     >
@@ -36,13 +37,16 @@ const Info:React.FC<Props> = ({name, bio, website,email}) => {
 
       <CardActions 
           sx={{
-            paddingLeft:'30%'
+           
+            display: 'flex',
+            justifyContent:'space-evenly'
+            
           }}
         >
           {
-            website ? (<Link variant='button'  underline="hover" href={website} >website</Link>) : undefined
+            website ? (<Link variant='button'  underline="hover" href={website} >{<OpenInBrowser/>}</Link>) : undefined
           }
-          <Link variant='button' underline="hover" href={email} >email</Link>
+          <Link variant='button' underline="hover" href={email} ><Email/></Link>
       </CardActions>
 
          
